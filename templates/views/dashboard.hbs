@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="/css/mainStyle.css">
+</head>
+
+<body>
+
+    {{>sidebar}}
+    <!-- ========================= Dashboard ==================== -->
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
+            {{!-- <div class="search">
+                <label>
+                    <input type="text" placeholder="Search Area,City,lattitude-longitude">
+                    <ion-icon name="search-outline"></ion-icon>
+                </label>
+            </div> --}}
+
+            {{!-- <div class="user">
+                <img src="/images/customer01.jpg" alt="">
+            </div> --}}
+        </div>
+
+        <!-- ======================= Cards ================== -->
+        <div class="cardBox">
+            <div class="card-1">
+                <div>
+                    <div class="numbers">0</div>
+                    <div class="cardName">yellow(Need to be safe)</div>
+                </div>
+
+                <!-- <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div> -->
+            </div>
+
+            <div class="card-2">
+                <div>
+                    <div class="numbers">0</div>
+                    <div class="cardName">Red(Not safe)</div>
+                </div>
+
+                <!-- <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div> -->
+            </div>
+
+            <div class="card-3">
+                <div>
+                    <div class="numbers" id="safe_no">0</div>
+                    <div class="cardName">Green(safe)</div>
+                </div>
+
+                <!-- <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div> -->
+            </div>
+
+            <div class="card-4">
+                <div>
+                    <div class="numbers"id="total_no">0</div>
+                    <div class="cardName">Total</div>
+                </div>
+
+                <!-- <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div> -->
+            </div>
+        </div>
+
+        <!-- ================= New Customers ================ -->
+        <div class="recentCustomers">
+            <h2>Recent user</h2>
+            <table id="userTable">
+               
+
+            </table>
+        </div>
+    </div>
+    </div>
+
+    <script src="/js/sidebarScript.js"></script>
+    <script src="/js/dashboardScript.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>

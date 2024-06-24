@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.guideBox {
+    margin-top: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  
+.guideBox2 {
+  margin-top: 20px;
+background-color: #f2f2f2;
+padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.guidelines2{
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 10px;
+  padding: 2px;
+}
+  
+  textarea {
+    width: 100%;
+    resize: vertical;
+    margin-bottom: 10px;
+    padding: 2px;
+  }
+  
+  .button {
+    background-color: #378521;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 25px;
+    }
+}
+

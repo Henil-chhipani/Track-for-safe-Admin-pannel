@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@300&display=swap");
+
+#map {
+    height: 90.6vh; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
